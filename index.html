@@ -7,6 +7,57 @@
     <title>Bryan</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a software developer with a passion for solving problems and building cool stuff. I mostly work in the web development world, preferably in the backend if I can help it. I've done most of my work in Java and JS, but I know a little Ruby and Python and I'm always up for learning something new.
+
+                I started out my adult life studying environmental science. After six long years, I graduated with a Master's degree and found myself poised for a long and successful career in environmental consulting and management. Obviously, that didn't work out and I spent a few years trying to find a new passion in life. I flip-flopped between potential careers in adjacent fields, like environmental compliance, and a few out of left field, like pharmacy or another medical field. Eventually, after years of friends and family trying to nudge me towards computer science and software development, I finally caved and started taking CS50 online. Even though the course felt like a huge learning curve and became a big source of frustration for me, I realized that I genuinely enjoyed the work. I loved the challenge of breaking down complex (to me) problems and coming up with programmatic solutions.
+
+                Eventually I enrolled in a college software development program, where I discovered that software development was definitely what I wanted to do with my life. Since then, I've been absorbing as much about software development as I can; taking multiple online courses on top of my college classes, reading blogs and websites, listening to podcasts, doing leetcode challenges, and working on my own projects. I'm still looking for that first job in the industry, so don't hesitate to contact me if you think I would be a good fit at your company.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Shopify Backend Developer Intern Challenge - Fall 2022</h3>
+                <a href="https://github.com/bryan0x17/shopify_bed_2022">Github</a>
+                <a href="https://replit.com/@bryan0x17/shopifybed2022">Replit</a>
+                <p>
+                    This project was created as part of my application for a backend development internship at Shopify. The goal of the project was to create a functioning inventory management app for a fictional logistics company. The app had to be able to perform basic CRUD functions, as well as one additional piece of functionality. In my case, I decided to implement functionality that allows the user to submit deletion comments when deleting an item from inventory, as well as being able to undo deleting an item.
+
+                    The backend of the app is a Spring Boot REST API that uses Spring Data JPA to perform CRUD operations on an in-memory H2 database. The frontend is a simple series of static pages that use JS to communicate with the backend. 
+                    
+                    I decided to use Spring even though I wasn't that familiar with it at the time because I felt that it was the cleanest and most modern way to approach the problem using Java. It turned out to be much more challenging than I originally thought it would be, but I'm glad I stuck with it. Spring is a great framework that abstracts away much of the "plumbing" underneath a modern web application, but in my experience you still need to have some idea of what's going on underneath the hood. Building this app taught me a lot about REST APIs, Spring and some of its quirks, and even some new things on the frontend, like asynchronous JavaScript functions.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Home nVentory Inventory Management System</h3>
+                <a href="https://github.com/bryan0x17/CPRG352-final-project">Github</a>
+                <p>
+                    This is my final project for SAIT's Web Application Development course. The goal was to build an inventory management web app that would allow users to:
+                    <ul>
+                        <li>sign up</li>
+                        <li>sign in and out</li>
+                        <li>change their account details</li>
+                        <li>add, edit, and remove inventory items</li>
+                        <li>deactivate their account</li>
+                    </ul>
+                    The app also allows for admin users, who can add, edit, and remove users and categories. The app also sends emails, uses filters for authentication, and salts and hashes passwords. The app is built using Java EE, Maven, JPA, JSTL/JSP, and MariaDB/MySQL.
+
+                    Even though Java EE is a bit older and not that popular these days, I liked building this app because it forced me to do many of the things that would normally be abstracted away by a more modern framework. I learned a fair bit about how an ORM like JPA interacts with a database and about mapping objects and classes to database entities. As always, building a project like this teaches you a lot, because when it comes to actually implementing the theory you feel you already know, you inevitably run into stumbling blocks that you have to work through or around to get the system to work properly.
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
