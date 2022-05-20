@@ -4,11 +4,58 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(34, 32, 32);
     color: white;
+    margin: 0px;
 }
 
+header {
+    background-color: rgb(34, 32, 32);
+    top: 0;
+    
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+}
 
-a[target="_blank"]::after {
-  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-  margin: 0px 3px 0px 5px;
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 10%;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: gray;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 0.1em solid white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 0.05em solid white;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: rgb(226, 223, 223);
+}
+
+#contact {
+    text-align: center;
+}
+
+main {
+    margin-bottom: 100px;
 }
