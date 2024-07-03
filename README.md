@@ -7,4 +7,4 @@ This is the repository for my personal website. The site is a static, one page w
 
 ## Technologies
 
-The site is built using HTML, CSS, and JavaScript. The site will be hosted using Github Pages.
+The site is built using HTML, CSS, and JavaScript. The site will be hosted using Github Pages. You can find it here: https://bryan0x17.github.io/
